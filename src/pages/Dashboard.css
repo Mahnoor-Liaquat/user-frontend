@@ -1,0 +1,190 @@
+.dashboard {
+  height: 100vh; 
+  overflow-y: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.container-md, .container-fluid {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 0;
+}
+
+.rap {
+  border: 1px solid blue;
+  background: rgb(12, 110, 231);
+  border-radius: 23px;
+  margin-top: 22px;
+  overflow: hidden; 
+}
+
+.pak h4 {
+  padding: 22px;
+  color: white;
+  margin: 0; 
+}
+
+.pak p {
+  padding-left: 12px;
+  color: white;
+  margin: 0; 
+}
+
+.md {
+  margin-top: 34px;
+}
+
+.pay {
+  border-radius: 22px;
+  padding: 25px;
+  box-shadow: 0 0 18px gray;
+  margin-bottom: 15px; 
+}
+
+.pay:hover {
+  border: 1px solid blue;
+}
+
+.stus {
+  padding: 24px;
+}
+
+.pack {
+  text-align: center;
+}
+
+.lst {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.cd {
+  border-radius: 22px;
+  padding: 25px;
+  background: #7979e947;
+  margin-bottom: 15px; 
+}
+
+.pack i {
+  font-size: 22px;
+  color: blue;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .rap {
+    height: 140px;
+    margin-top: 20px;
+  }
+
+  .pak h4 {
+    padding: 18px;
+  }
+
+  .pak p {
+    padding-left: 10px;
+  }
+
+  .pay {
+    padding: 20px;
+  }
+
+  .stus {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .rap {
+    height: 120px;
+    margin-top: 18px;
+  }
+
+  .pak h4 {
+    padding: 15px;
+  }
+
+  .pak p {
+    padding-left: 8px;
+  }
+
+  .pay {
+    padding: 15px;
+  }
+
+  .cd {
+    padding: 20px;
+  }
+
+  .pack i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rap {
+    height: 100px;
+    margin-top: 15px;
+  }
+
+  .pak h4 {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .pak p {
+    padding-left: 6px;
+    font-size: 14px;
+  }
+
+  .pay {
+    padding: 10px;
+  }
+
+  .cd {
+    padding: 15px;
+  }
+
+  .pack i {
+    font-size: 18px;
+  }
+
+  .lst {
+    flex-direction: column;
+    align-items: center; 
+  }
+}
+
+@media (max-width: 576px) {
+  .rap {
+    height: 80px;
+    margin-top: 10px;
+  }
+
+  .pak h4 {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .pak p {
+    padding-left: 4px;
+    font-size: 12px;
+  }
+
+  .pay {
+    padding: 8px;
+  }
+
+  .cd {
+    padding: 10px;
+  }
+
+  .pack i {
+    font-size: 16px;
+  }
+}
